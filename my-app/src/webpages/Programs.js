@@ -14,7 +14,7 @@ import { IoGameController } from "react-icons/io5";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { BiCodeBlock } from "react-icons/bi";
 import { GiArtificialIntelligence } from "react-icons/gi";
-import onlineCourses from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/onlineCourses.jpg";
+import onlineCourses from "../images/onlineCourses.jpg";
 
 function Programs() {
   return (
