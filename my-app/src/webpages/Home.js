@@ -1,12 +1,12 @@
-import profile1 from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/MalePic.png";
-import profile2 from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/MalePic2.png";
-import design from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/designer.png";
-import code from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/Coding.png";
-import game from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/gamedev.png";
-import introImage from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/introImage.jpg";
-import vr from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/VR.png";
-import onlineclasses from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/onlineCourses.jpg";
-import ceo from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/ceo.png";
+import profile1 from "../images/MalePic.png";
+import profile2 from "../images/MalePic2.png";
+import design from "../images/designer.png";
+import code from "../images/Coding.png";
+import game from "../images/gamedev.png";
+import introImage from "../images/introImage.jpg";
+import vr from "../images/VR.png";
+import onlineclasses from "../images/onlineCourses.jpg";
+import ceo from "../images/ceo.png";
 
 function Home() {
   return (

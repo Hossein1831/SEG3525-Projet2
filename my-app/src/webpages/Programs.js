@@ -1,11 +1,11 @@
-import Design from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/designer.png";
-import business from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/business.png";
-import math from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/math.png";
-import AI from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/AI.png";
-import programming from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/Coding.png";
-import webdev from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/webdev.png";
-import gamedev from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/gamedev.png";
-import communication from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/communication.png";
+import Design from "../images/designer.png";
+import business from "../images/business.png";
+import math from "../images/math.png";
+import AI from "../images/AI.png";
+import programming from "../images/Coding.png";
+import webdev from "../images/webdev.png";
+import gamedev from "../images/gamedev.png";
+import communication from "../images/communication.png";
 
 import { TbBusinessplan } from "react-icons/tb";
 import { GiMaterialsScience } from "react-icons/gi";
