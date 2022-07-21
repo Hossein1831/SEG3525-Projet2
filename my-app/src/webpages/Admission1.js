@@ -407,6 +407,7 @@ function Admission1() {
                   class="prevBtn btn btn-outline-primary disabled"
                   role="button"
                   aria-disabled="true"
+                  href="/"
                 >
                   Previous Step
                 </a>

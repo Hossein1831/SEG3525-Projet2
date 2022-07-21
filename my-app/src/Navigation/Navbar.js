@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav className="navbar">
       <a href="/">TechU</a>
       <div className="links">
-        <a>
+        <a href="/">
           <MdOutlineAccountCircle />
         </a>
-        <a>
+        <a href="/">
           <MdLanguage />
         </a>
       </div>
