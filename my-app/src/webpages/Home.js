@@ -1,6 +1,3 @@
-import image from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/flower 1.jpg";
-import image2 from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/flower 2.jpg";
-import image3 from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/flower 3.jpg";
 import profile1 from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/MalePic.png";
 import profile2 from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/MalePic2.png";
 import design from "/Users/hhajm/Desktop/SEG3525-Projet2/my-app/src/images/designer.png";
