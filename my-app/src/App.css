@@ -1,38 +1,703 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body,
+html{
+  font-family: 'Raleway', sans-serif;
+  
+  background: hsla(259, 84%, 78%, 1);
+
+background: linear-gradient(135deg, hsla(259, 84%, 78%, 1) 22%, hsla(206, 67%, 75%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(259, 84%, 78%, 1) 22%, hsla(206, 67%, 75%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(259, 84%, 78%, 1) 22%, hsla(206, 67%, 75%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B597F6", endColorstr="#96C6EA", GradientType=1 );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 100px 0px;
+  background: hsla(186, 33%, 94%, 1);
+
+  background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+
+.navbar .links {
+  display: flex;
+}
+
+.navbar a {
+  color: #103783;
+  font-size: 40px;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 0px;
+  margin-right: 1rem;
+}
+
+.navbar a:hover{
+  color: black;
+}
+
+/*intro box CSS START*/
+.intro {
+  display: flex;
+  align-items: center;
+}
+.welcome h1{
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+.welcome p{
+  font-size: 30px;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+.welcome a{
+  font-size: 30px;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  
+}
+.welcome a:hover{
+  background: hsla(252, 40%, 29%, 1);
+
+  background: linear-gradient(135deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  
+  background: -moz-linear-gradient(135deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  
+  background: -webkit-linear-gradient(135deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#392D69", endColorstr="#B57BEE", GradientType=1 );
+  border-width: 0px;
+}
+.welcome a{
+  color: hsla(252, 40%, 29%, 1);
+  border-color: hsla(252, 40%, 29%, 1);
+  border-radius: 35px;
+  border-width: 3px;
+}
+
+/*intro box CSS END*/
+
+/*carousel CSS START*/
+.slideshow{
+  display: flex;
+  justify-content: center;
+}
+.carsli{
+  display: flex;
+  height: 500px;
+  width: 800px;
+  margin: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 20px;
+  box-shadow: 0px 12px 31px 10px;
+}
+.carousel-inner{
+  border-radius: 20px;
+}
+.carousel-caption{
+  background-color: rgba(128, 128, 128, 0.733);
+  filter: blur(0px);
+}
+/*carousel CSS END*/
+
+.infoLinks {
+  display: grid;
+  border-top-width: 1rem;
+  border-bottom-width: 1rem;
+}
+.navbartabs{
+  margin-top: 2rem;
+  color: #333;
+}
+.nav-tabs .nav-link{
+  border: 1px solid ;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: black;
+}
+.nav-item button:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+  border-width: 0px;
+}
+
+
+/*infolinks tab css for cards START*/
+
+.a-box {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.img-container {
+    height: 230px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+}
+
+.img-container img {
+    transform: skew(0deg, -13deg);
+    height: 250px;
+    margin: -21px 0px 0px 0px;
+}
+
+.inner-skew {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    font-size: 10px;
+    margin: 30px 0px 0px 0px;
+    background: #c8c2c2;
+    height: 250px;
+    width: 200px;
+}
+
+.text-container {
+  box-shadow: 0px 0px 60px 30px rgba(0,0,0,0.4);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #231E39;
+  margin: -120px 0px 0px 0px;
+  line-height: 20px;
+  font-size: 15px;
+  color: #B3B8CD;
+}
+
+.text-container h3 {
+  margin: 20px 0px 10px 0px;
+  color: #04bcff;
+  font-size: 18px;
+}
+
+/*infolinks tab css for cards END*/
+
+/*CSS for Programs tab cards START*/
+.programImg{
+  border-radius: 35%;
+}
+.container{
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card{
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  border-width: 0ch;  
+  margin: 0rem;
+}
+
+.container .card .face{
+  width: 300px;
+  height: 200px;
+  transition: 0.75s;
+  border-radius: 25px;
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: rgb(117, 117, 117);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  background: hsla(252, 40%, 29%, 1);
+
+  background: linear-gradient(135deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  
+  background: -moz-linear-gradient(135deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  
+  background: -webkit-linear-gradient(135deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#392D69", endColorstr="#B57BEE", GradientType=1 );
+  transform: translateY(50px);
+}
+
+.container .card .face.face1 .content{
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+  max-width: 150px;
+}
+
+.container .card .face.face1 .content h3{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .card .face.face2{
+  position: relative;
+  background: #cdd0df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a{
+  margin: 15px 0 0;
+  display:  inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #333;
+  color: #fff;
+}
+/*CSS for Programs tab cards END*/
+
+/*CSS for personel tab cards START*/
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card-container {
+  display: block;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #231E39;
+	border-radius: 30px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+  height: 550px;
+	max-width: 100%;
+	text-align: center;
+  margin: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container .pro {
+	color: #231E39;
+	background-color: #FEBB0B;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-container .round {
+  height: 140px;
+  margin-bottom: 1rem;
+	border: 1px solid #03BFCB;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+.skills {
+	background-color: #1F1A36;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+/*CSS for personel tab cards END*/
+
+.infoLinks button {
+  display: flex;
+  height: auto;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.myTabContent{
+  display: block;
+}
+
+.slideshow {
+  display: flex;
+}
+
+.carouselExampleCaptions {
+  height: 700px;
+  width: 1000px;
+  background-color: blue;
+}
+
+.imagesPlace {
+  height: 1200px;
+  width: 1500px;
+}
+
+/*separation line*/
+
+
+.Footer {
+  background: hsla(186, 33%, 94%, 1);
+  background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+  height: 80px;
+}
+
+.Links a {
+  color: #103783;
+  margin-left: 2px;
+  text-decoration: none;
+  width: 80px;
+}
+.footerlinks{
+  text-size-adjust: 40px;
+}
+.Links a:hover{
+  color: #B3B8CD;
+  background-color: #231E39;
+  border-width: 2px;
+  padding: 6px;
+}
+
+
+/*Programs page CSS START*/
+.whichPage nav{
+  display: flex;
+  align-items: center;
+  border-bottom-width: 10px;
+}
+.whichPage nav ol {
+  display: flex;
+  margin: 1.5rem;
+}
+.progParCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progParCol p{
+  font-size: 30px;
+}
+.lilIntroOnPrograms{
+  display: flex;
+}
+.findPrograms {
+  display: grid;
+  border-top-width: 10px;
+  grid-template-columns: 20% 80%;
+}
+.programImage {
+  height: 500px;
+  width: 800px;
+}
+.filter{
+  display: grid;
+  grid-template-rows: repeat(7, 50px);
+  margin: 1.5rem;
+}
+.filter div{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.programBoxes {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(10, auto);
+  grid-gap: 10px;
+  border-left-width: 2px ;
+  margin: 0 auto;
+}
+.programBoxes .card {
+  display: flex;
+  border:0cm;
+  background-color: aqua;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 25px;
+  height: 500px;
+  width: 350px;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.programBoxes .card:nth-child(even) {
+  background-color: aquamarine;
+}
+.btnLegend{
+  display: flex;
+  align-items: center;
+}
+.courseIcon{
+  margin-left: 53px;
+  size: 5px;
+}
+/*Programs page CSS START*/
+
+
+
+/*each groupings color*/
+.coding{
+  background: hsla(233, 100%, 90%, 1);
+  background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);  
+  background: -moz-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);  
+  background: -webkit-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAD0FF", endColorstr="#E3E3E3", GradientType=1 );
+}
+.AI{
+  background: hsla(180, 33%, 88%, 1);
+  background: linear-gradient(90deg, hsla(180, 33%, 88%, 1) 0%, hsla(310, 76%, 82%, 1) 50%, hsla(256, 83%, 72%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(180, 33%, 88%, 1) 0%, hsla(310, 76%, 82%, 1) 50%, hsla(256, 83%, 72%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(180, 33%, 88%, 1) 0%, hsla(310, 76%, 82%, 1) 50%, hsla(256, 83%, 72%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D7EBEB", endColorstr="#F4AFE9", GradientType=1 );
+}
+.webdev{
+  background: hsla(13, 93%, 67%, 1);
+  background: linear-gradient(90deg, hsla(13, 93%, 67%, 1) 0%, hsla(21, 91%, 73%, 1) 100%);  
+  background: -moz-linear-gradient(90deg, hsla(13, 93%, 67%, 1) 0%, hsla(21, 91%, 73%, 1) 100%);  
+  background: -webkit-linear-gradient(90deg, hsla(13, 93%, 67%, 1) 0%, hsla(21, 91%, 73%, 1) 100%);  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F97D5B", endColorstr="#F9A87B", GradientType=1 );
+}
+.MathSc{
+  background: hsla(298, 68%, 90%, 1);
+  background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", endColorstr="#FBE9D7", GradientType=1 );
+}
+.gamedev{
+  background: hsla(347, 89%, 61%, 1);
+  background: linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F44369", endColorstr="#3E3B92", GradientType=1 );
+}
+.BusMark{
+  background: hsla(277, 79%, 84%, 1);
+  background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDB4F6", endColorstr="#8DD0FC", GradientType=1 );
+}
+.Design{
+  background: hsla(321, 42%, 48%, 1);
+  background: linear-gradient(90deg, hsla(321, 42%, 48%, 1) 0%, hsla(343, 80%, 65%, 1) 100%);  
+  background: -moz-linear-gradient(90deg, hsla(321, 42%, 48%, 1) 0%, hsla(343, 80%, 65%, 1) 100%);  
+  background: -webkit-linear-gradient(90deg, hsla(321, 42%, 48%, 1) 0%, hsla(343, 80%, 65%, 1) 100%);  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AD4689", endColorstr="#ED5C86", GradientType=1 );
+}
+.form-check-input{
+  margin-right: 10px;
+}
+.form-check-label{
+  display: flex;
+  align-items: center;
+}
+.filterNames{
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+
+
+
+/*Admission Page*/
+
+.progressBar{
+  align-items: center;
+  height: 200px;
+}
+.progress{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 17%;
+  height: 70px;
+  width: 1000px;
+}
+.progress-bar {
+  width: 25%;  
+}
+.progress-bar2 {
+  width: 50%;
+}
+.step1Text{
+  margin-left: 42%;
+  margin-top: 1rem;
+}
+.step1Text2{
+  margin-left: 39.5%;
+  margin-top: 1rem;
+}
+.nextPrevStep{
+  border-left: 2px solid;
+}
+.prevBtn {
+  border-radius: 100px;
+  margin: 2rem;
+}
+.nextBtn {
+  margin-left: 800px;
+}
+
+/*CSS for ADMISSION2 START*/
+.paymentMethod{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 1.5rem;
+}
+.cardHolderInfo {
+  margin: 1.5rem;
+}
+.programInfo {
+  margin: 1.5rem;
+}
+/*CSS for ADMISSION2 END*/
+
+
+
+
+
+/*CSS for Contact Us Page START*/
+.contactUs {
+  display: grid;
+  grid-template-rows: 350px 400px 700px;
+  justify-content: center;
+  row-gap: rem;
+  
+}
+
+.ContactUsText{
+  display: grid;
+  grid-template-rows: 50% 50% ;
+  row-gap: 0.5rem;
+}
+
+.Headline{
+  display: flex;
+  align-items: center;
+}
+.ContactUsText div{
+  display: flex;
+  justify-content: center;
+}
+
+.ContactUsText span{
+  width: 700px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right div{
+  background-color: #231E39;
+  width: 590px;
+  height: 150px;
+  display: flex; 
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px 2px;
+}
+
+.emailAddress p{
+  color: #B3B8CD;
+  margin-top: 2mm;
+  font-size: 23px;
+}
+.PECText{
+  font-size: 20px;
+  line-height: 33px;
+}
+.emailAddress{
+  display: flex;
+  align-items: center;
+}
+.faqtext {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.faq{
+  margin-bottom: 5rem;
+}
+.accordion-item {
+  width: 800px;
+  background-color: transparent;
+}
+.accordion div{
+  background-color: transparent;
+  border-width: 0cm;
+}
+/*CSS for Contact Us Page END*/
+
+.card-text {
+  font-size: 20px;
 }
