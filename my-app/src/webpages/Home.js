@@ -86,7 +86,7 @@ function Home() {
               <div className="card">
                 <div className="face face1">
                   <div className="content">
-                    <img src={design} className="programImg" />
+                    <img src={design} className="programImg" alt="" />
                     <h3>Design</h3>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ function Home() {
               <div className="card">
                 <div className="face face1">
                   <div className="content">
-                    <img src={code} className="programImg" />
+                    <img src={code} className="programImg" alt="" />
                     <h3>Code</h3>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ function Home() {
               <div className="card">
                 <div className="face face1">
                   <div className="content">
-                    <img src={game} className="programImg" />
+                    <img src={game} className="programImg" alt="" />
                     <h3>Game Dev</h3>
                   </div>
                 </div>

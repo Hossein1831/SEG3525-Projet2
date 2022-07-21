@@ -127,7 +127,7 @@ function Admission1() {
             <div className="programs">
               <div className="programBoxes">
                 <div className="Design card">
-                  <img src={Design} className="card-img-top" alt="image" />
+                  <img src={Design} className="card-img-top" alt="1" />
                   <div className="card-body">
                     <h5 className="card-title">2D Design</h5>
                     <p className="card-text">
@@ -146,7 +146,7 @@ function Admission1() {
                 </div>
 
                 <div className="Design card">
-                  <img src={Design} className="card-img-top" alt="image" />
+                  <img src={Design} className="card-img-top" alt="2" />
                   <div className="card-body">
                     <h5 className="card-title">3D Design</h5>
                     <p className="card-text">
@@ -165,7 +165,7 @@ function Admission1() {
                 </div>
 
                 <div className="MathSc card">
-                  <img src={math} className="card-img-top" alt="image" />
+                  <img src={math} className="card-img-top" alt="3" />
                   <div className="card-body">
                     <h5 className="card-title">Applied Sciences</h5>
                     <p className="card-text">
@@ -183,7 +183,7 @@ function Admission1() {
                 </div>
 
                 <div className="BusMark card">
-                  <img src={business} className="card-img-top" alt="image" />
+                  <img src={business} className="card-img-top" alt="4" />
                   <div className="card-body">
                     <h5 className="card-title">Business and Marketing</h5>
                     <p className="card-text">
@@ -202,11 +202,7 @@ function Admission1() {
                 </div>
 
                 <div className="BusMark card">
-                  <img
-                    src={communication}
-                    className="card-img-top"
-                    alt="image"
-                  />
+                  <img src={communication} className="card-img-top" alt="6" />
                   <div className="card-body">
                     <h5 className="card-title">Communications</h5>
                     <p className="card-text">
@@ -225,7 +221,7 @@ function Admission1() {
                 </div>
 
                 <div className="coding card">
-                  <img src={programming} className="card-img-top" alt="image" />
+                  <img src={programming} className="card-img-top" alt="5" />
                   <div className="card-body">
                     <h5 className="card-title">C++ & OOP</h5>
                     <p className="card-text">
@@ -243,7 +239,7 @@ function Admission1() {
                 </div>
 
                 <div className="coding card">
-                  <img src={programming} className="card-img-top" alt="image" />
+                  <img src={programming} className="card-img-top" alt="7" />
                   <div className="card-body">
                     <h5 className="card-title">C#</h5>
                     <p className="card-text">
@@ -261,7 +257,7 @@ function Admission1() {
                 </div>
 
                 <div className="AI card">
-                  <img src={AI} className="card-img-top" alt="image" />
+                  <img src={AI} className="card-img-top" alt="8" />
                   <div className="card-body">
                     <h5 className="card-title">Deep Learning</h5>
                     <p className="card-text">
@@ -281,7 +277,7 @@ function Admission1() {
                 </div>
 
                 <div className="webdev card">
-                  <img src={webdev} className="card-img-top" alt="image" />
+                  <img src={webdev} className="card-img-top" alt="9" />
                   <div className="card-body">
                     <h5 className="card-title">HTML & CSS & JS</h5>
                     <p className="card-text">
@@ -299,7 +295,7 @@ function Admission1() {
                 </div>
 
                 <div className="AI card">
-                  <img src={AI} className="card-img-top" alt="image" />
+                  <img src={AI} className="card-img-top" alt="0" />
                   <div className="card-body">
                     <h5 className="card-title">Machine Learning</h5>
                     <p className="card-text">
@@ -318,7 +314,7 @@ function Admission1() {
                 </div>
 
                 <div className="MathSc card">
-                  <img src={math} className="card-img-top" alt="image" />
+                  <img src={math} className="card-img-top" alt="10" />
                   <div className="card-body">
                     <h5 className="card-title">Mathematics</h5>
                     <p className="card-text">
@@ -336,7 +332,7 @@ function Admission1() {
                 </div>
 
                 <div className="MathSc card">
-                  <img src={math} className="card-img-top" alt="image" />
+                  <img src={math} className="card-img-top" alt="11" />
                   <div className="card-body">
                     <h5 className="card-title">Physics</h5>
                     <p className="card-text">
@@ -354,7 +350,7 @@ function Admission1() {
                 </div>
 
                 <div className="webdev card">
-                  <img src={webdev} className="card-img-top" alt="image" />
+                  <img src={webdev} className="card-img-top" alt="12" />
                   <div className="card-body">
                     <h5 className="card-title">React Development</h5>
                     <p className="card-text">
@@ -372,7 +368,7 @@ function Admission1() {
                   </div>
                 </div>
                 <div className="gamedev card">
-                  <img src={gamedev} className="card-img-top" alt="image" />
+                  <img src={gamedev} className="card-img-top" alt="13" />
                   <div className="card-body">
                     <h5 className="card-title">Unity</h5>
                     <p className="card-text">
@@ -389,7 +385,7 @@ function Admission1() {
                   </div>
                 </div>
                 <div className="gamedev card">
-                  <img src={gamedev} className="card-img-top" alt="image" />
+                  <img src={gamedev} className="card-img-top" alt="14" />
                   <div className="card-body">
                     <h5 className="card-title">Unreal Engine</h5>
                     <p className="card-text">
